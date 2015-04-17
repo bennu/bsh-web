@@ -66,7 +66,7 @@ define(['exec/runner', 'exec/events', 'core/utils', 'core/fs', 'core/lang', 'hel
                 runner.trigger(args.replace(/\s+/g, ' ').trim().split(' '));
             }
             if (key === 9) {
-
+				e.preventDefault();
             }
             if (key === 38) {
                 navigate.up(this);
