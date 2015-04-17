@@ -1,0 +1,24 @@
+{
+  "name": "loot-web",
+  "version": "0.0.1",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "loot-web"
+  ],
+  "license": "MIT",
+  "homepage": "www.bennu.cl",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bsh-css": "https://github.com/Bennu/bsh-css.git#develop",
+    "lodash": "~3.0.0"
+  }
+}
